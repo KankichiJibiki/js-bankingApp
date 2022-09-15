@@ -7,7 +7,7 @@
             <div class="col-md-6 col-10 bg-light p-3">
                 <h2 class="my-3 text-center">Please Enter The Deposit Amount</h2>
                 <div class="col-12 mb-3">
-                    <input type="number" name="" id="" class="form-control col-12">
+                    <input type="number" name="" id="" class="form-control col-12" placeholder="$105.00">
                 </div>
 
                 <!-- btn -->
