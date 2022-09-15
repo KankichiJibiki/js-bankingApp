@@ -6,15 +6,18 @@
             <!-- container page deposit -->
             <div class="col-md-6 col-10 bg-light p-3">
                 <h2 class="my-3 text-center">Please Enter The Deposit Amount</h2>
-                <div class="col-12 mb-3">
-                    <input type="number" name="" id="" class="form-control col-12" placeholder="$105.00">
-                </div>
+                <form action="" method="post">
 
-                <!-- btn -->
-                <div class="row justify-content-around">
-                    <button type="submit" class="btn btn-outline-primary col-5">Go Back</button>
-                    <button type="submit" class="btn btn-primary text-light col-5">Confirm</button>
-                </div>
+                    <div class="col-12 mb-3">
+                        <input type="number" name="deposit_amount" id="deposit_amount" class="form-control col-12" placeholder="$105.00">
+                    </div>
+                    
+                    <!-- btn -->
+                    <div class="row justify-content-around">
+                        <button type="submit" class="btn btn-outline-primary col-5">Go Back</button>
+                        <button type="submit" class="btn btn-primary text-light col-5">Confirm</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
