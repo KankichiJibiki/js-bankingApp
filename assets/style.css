@@ -1,0 +1,21 @@
+:root{
+    --option-color:#2b5394;
+    --big: 2rem;
+}
+
+.stText{
+    font-size:var(--big);
+}
+
+.op_con{
+    background-color: var(--option-color);
+}
+
+.money-box{
+    border: 5px double white;
+    background-color: var(--option-color);
+}
+
+.money_result , .money_item{
+    background-color: var(--option-color);
+}
